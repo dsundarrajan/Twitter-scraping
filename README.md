@@ -65,7 +65,7 @@ tweet_list = []
 
 tweet_list.clear()
 
-#Collecting the twitter data
+# Collecting the twitter data
 
 def keyword():
     
