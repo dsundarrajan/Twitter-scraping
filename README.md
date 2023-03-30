@@ -9,21 +9,29 @@ Topic : Twitter-scraping
 #!pip install streamlit
 
 # Import the required packages
+
 import snscrape.modules.twitter as sntwitter
+
 import pandas as pd
+
 import pymongo
+
 import datetime
+
 import json
+
 import streamlit as st
 
 #Application Programming Interface (API)
 
 myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+
 mydb = myclient["twitter_scraping_db"]
 
 # Streamlit Graphical User Interface (GUI) 
 
 #st.subheader("""Twitter Data scrap page""")
+
 #with st.form(key='Twitter form'):
     
     #Search_term=st.text_input('Search here')
