@@ -1,5 +1,7 @@
-# Twitter-scraping
+Topic : Twitter-scraping
+
 # Install the required packages
+
 #!pip install snscrape
 #!pip install pymongo
 #!pip install streamlit
@@ -13,6 +15,7 @@ import json
 import streamlit as st
 
 #Application Programming Interface (API)
+
 myclient = pymongo.MongoClient("mongodb://localhost:27017/")
 mydb = myclient["twitter_scraping_db"]
 
